@@ -47,7 +47,7 @@ const addDepartment = () => {
     inquirer.prompt([
         {
             name: "department",
-            message: "What Department would you like to add?"
+            message: "What department would you like to add?"
             
         }
     ])
