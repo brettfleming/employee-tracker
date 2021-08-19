@@ -3,6 +3,9 @@
 ## Task
 The task for this project was to produce a working employee managment system, That allows the user to add, view and update employee informantion. 
 
+![screenshot of the employee managment system](./ems.PNG)
+
+
 ## Table of Contents
 - [Task](#task)
 - [Description](#description)
