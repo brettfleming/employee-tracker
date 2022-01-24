@@ -7,6 +7,7 @@ const connection = mysql.createConnection(config);
 //this project uses inquirer to promt things in the console for the user to respond to
 const start = () => {
     inquirer
+    //this is how you indicated a prompt
       .prompt({
         name: 'action',
         type: 'list',
