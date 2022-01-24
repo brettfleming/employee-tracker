@@ -117,7 +117,7 @@ const addRole = () => {
       });
     });
 };
-
+//this collects the information needed to add a employee and then adds the employee
 const addEmployee = () => {
     connection.query('SELECT * FROM roles', (err, results) => {
         if (err) throw err;
