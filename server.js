@@ -44,7 +44,7 @@ const start = () => {
         }
       })
 };
-
+//this collects the information needed to add a department and then adds the department
 const addDepartment = () => {
     inquirer.prompt([
         {
