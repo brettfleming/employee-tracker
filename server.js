@@ -14,6 +14,7 @@ const start = () => {
         message: 'Welcome to the employee management system what would you like to do?',
         choices: ['Add Departments', 'Add Roles', 'Add Employee','View Departments', 'View Roles', 'View Employee', 'Update Roles', 'logout'],
       })
+      //you add a switch statement or a if else statement to continue the prompts depending on user input
       .then(({action}) => {
         switch(action){
           case "Add Departments":
