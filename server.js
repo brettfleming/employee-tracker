@@ -68,7 +68,7 @@ const addDepartment = () => {
         );
       });
 };
-
+//this collects the information needed to add a role and then adds the role
 const addRole = () => {
     connection.query('SELECT * FROM department', (err, results) => {
         if (err) throw err;
