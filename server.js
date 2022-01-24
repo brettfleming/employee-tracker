@@ -84,6 +84,7 @@ const addRole = () => {
             message: "What is the salary of this role?"
             
         },
+        //this pulls the already existing data in the data base to populate a list of optuions for the user
         {
             type: 'rawlist',
             name: "roleDepartment",
