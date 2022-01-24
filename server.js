@@ -4,7 +4,7 @@ const {config} = require("./creds");
 
 const connection = mysql.createConnection(config);
 
-
+//this project uses inquirer to promt things in the console for the user to respond to
 const start = () => {
     inquirer
       .prompt({
