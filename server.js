@@ -147,6 +147,7 @@ const addEmployee = () => {
                 return choiceArray;
               },
         },
+        //this populates a list of other employees that could be the new employees managner
         {
             type: 'rawlist',
             name: "manager",
