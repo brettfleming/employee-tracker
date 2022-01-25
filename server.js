@@ -269,5 +269,5 @@ const viewDepartments = () => {
 }
 
 
-
+//calling the start function here starts everything on load up
   start();
