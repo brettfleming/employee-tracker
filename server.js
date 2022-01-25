@@ -179,6 +179,7 @@ const addEmployee = () => {
             start();
           }
         );}
+        //I wonder if you could use destructed assignment here somehow? will look at later
         else {
             connection.query(
                 'INSERT INTO employees SET ?',
