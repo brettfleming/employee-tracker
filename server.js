@@ -249,6 +249,7 @@ const viewDepartments = () => {
             chosenRole = role;
           }
         });
+        //then to update you would take the newly collected data and pass it into a update query 
         connection.query(
             'UPDATE roles SET ? WHERE ?',
             [
