@@ -217,6 +217,7 @@ const viewDepartments = () => {
         console.table(res);
         start();})
  };
+ //updateing information starts with a query select first
  const updateRoles = () => {
     connection.query('SELECT * FROM roles', (err, results) => {
         if (err) throw err;
