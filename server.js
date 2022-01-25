@@ -198,7 +198,7 @@ const addEmployee = () => {
       });
     });});
 };
-
+//these are the view options which uses a select query and the * means all in this case
 const viewDepartments = () => {
     connection.query(`SELECT * FROM department`, (err, res) => {
         if (err) throw err;
